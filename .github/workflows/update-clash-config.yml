@@ -13,92 +13,207 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Install Dependencies
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Python Dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y curl jq
+        pip install pyyaml requests --break-system-packages
 
     - name: Download VLESS Servers
       run: |
-        echo "📥 دریافت سرورها از لینک..."
+        echo "📥 دریافت سرورها..."
         curl -L -o vless-input.txt \
           "https://raw.githubusercontent.com/x45fh56/tgs/refs/heads/main/Servers/Protocols/vless.txt"
         
-        echo "📊 محتوای فایل دانلود شده:"
-        head -20 vless-input.txt
-        
-        echo ""
-        echo "📈 تعداد خطوط: $(wc -l < vless-input.txt)"
+        echo "✅ دانلود شد - تعداد خطوط: $(wc -l < vless-input.txt)"
 
-    - name: Start Subconverter
+    - name: Create Converter Script
       run: |
-        docker run -d --name subconverter \
-          -p 25500:25500 \
-          tindy2013/subconverter:latest
-        
-        echo "⏳ صبر برای راه‌اندازی Subconverter..."
-        sleep 15
-        
-        # بررسی اینکه سرویس آماده است
-        for i in {1..10}; do
-          if curl -s http://localhost:25500/version > /dev/null 2>&1; then
-            echo "✅ Subconverter آماده است!"
-            break
-          fi
-          echo "منتظر... تلاش $i از 10"
-          sleep 3
-        done
+        cat > convert_to_clash.py << 'EOF'
+        #!/usr/bin/env python3
+        import yaml
+        import urllib.parse
+        import re
+        from typing import Dict, List
 
-    - name: Convert to Clash Format
+        def parse_vless_url(url: str) -> Dict:
+            """تبدیل URL VLESS به فرمت Clash"""
+            if not url.startswith('vless://'):
+                return None
+            
+            try:
+                # حذف vless://
+                url = url.replace('vless://', '')
+                
+                # جداسازی UUID و بقیه
+                uuid_part, rest = url.split('@', 1)
+                
+                # جداسازی server:port و params
+                server_part, params_part = rest.split('?', 1)
+                server, port = server_part.split(':', 1)
+                
+                # جداسازی params و name
+                if '#' in params_part:
+                    params_str, name = params_part.split('#', 1)
+                    name = urllib.parse.unquote(name)
+                else:
+                    params_str = params_part
+                    name = f"{server}:{port}"
+                
+                # Parse کردن parameters
+                params = dict(urllib.parse.parse_qsl(params_str))
+                
+                # ساخت proxy config
+                proxy = {
+                    'name': name,
+                    'type': 'vless',
+                    'server': server,
+                    'port': int(port),
+                    'uuid': uuid_part,
+                    'udp': True,
+                    'tls': params.get('security') in ['tls', 'reality'],
+                    'skip-cert-verify': params.get('insecure', '0') == '1' or params.get('allowInsecure', '0') == '1',
+                }
+                
+                # Network type
+                network_type = params.get('type', 'tcp')
+                proxy['network'] = network_type
+                
+                # TLS/Reality settings
+                if params.get('security') == 'reality':
+                    proxy['reality-opts'] = {
+                        'public-key': params.get('pbk', ''),
+                        'short-id': params.get('sid', ''),
+                    }
+                    if params.get('sni'):
+                        proxy['servername'] = params.get('sni')
+                    if params.get('fp'):
+                        proxy['client-fingerprint'] = params.get('fp')
+                
+                elif params.get('security') == 'tls':
+                    if params.get('sni'):
+                        proxy['servername'] = params.get('sni')
+                    if params.get('fp'):
+                        proxy['client-fingerprint'] = params.get('fp')
+                    if params.get('alpn'):
+                        proxy['alpn'] = params.get('alpn').split(',')
+                
+                # WebSocket
+                if network_type == 'ws':
+                    proxy['ws-opts'] = {}
+                    if params.get('path'):
+                        proxy['ws-opts']['path'] = urllib.parse.unquote(params.get('path'))
+                    if params.get('host'):
+                        proxy['ws-opts']['headers'] = {'Host': params.get('host')}
+                
+                # gRPC
+                elif network_type in ['grpc', 'gun']:
+                    proxy['grpc-opts'] = {}
+                    if params.get('serviceName'):
+                        proxy['grpc-opts']['grpc-service-name'] = params.get('serviceName')
+                
+                # HTTP/2
+                elif network_type in ['h2', 'http']:
+                    proxy['h2-opts'] = {}
+                    if params.get('path'):
+                        proxy['h2-opts']['path'] = urllib.parse.unquote(params.get('path'))
+                    if params.get('host'):
+                        proxy['h2-opts']['host'] = [params.get('host')]
+                
+                # Flow (برای Reality)
+                if params.get('flow'):
+                    proxy['flow'] = params.get('flow')
+                
+                return proxy
+                
+            except Exception as e:
+                print(f"❌ خطا در parse: {str(e)[:50]}")
+                return None
+
+        def main():
+            print("🔄 شروع تبدیل...")
+            
+            # خواندن فایل ورودی
+            with open('vless-input.txt', 'r') as f:
+                lines = [line.strip() for line in f if line.strip() and line.startswith('vless://')]
+            
+            print(f"📊 تعداد لینک‌های VLESS: {len(lines)}")
+            
+            # تبدیل به Clash
+            proxies = []
+            for i, line in enumerate(lines, 1):
+                proxy = parse_vless_url(line)
+                if proxy:
+                    proxies.append(proxy)
+                    if i <= 5:
+                        print(f"✅ {i}. {proxy['name']}")
+            
+            print(f"\n✅ تعداد سرورهای معتبر: {len(proxies)}")
+            
+            # ساخت کانفیگ Clash
+            clash_config = {
+                'port': 7890,
+                'socks-port': 7891,
+                'allow-lan': True,
+                'mode': 'rule',
+                'log-level': 'info',
+                'external-controller': '127.0.0.1:9090',
+                'proxies': proxies,
+                'proxy-groups': [
+                    {
+                        'name': '🚀 انتخاب',
+                        'type': 'select',
+                        'proxies': ['♻️ خودکار', '🔘 دستی'] + [p['name'] for p in proxies[:20]]
+                    },
+                    {
+                        'name': '♻️ خودکار',
+                        'type': 'url-test',
+                        'proxies': [p['name'] for p in proxies],
+                        'url': 'http://www.gstatic.com/generate_204',
+                        'interval': 300
+                    },
+                    {
+                        'name': '🔘 دستی',
+                        'type': 'select',
+                        'proxies': [p['name'] for p in proxies]
+                    }
+                ],
+                'rules': [
+                    'DOMAIN-SUFFIX,ir,DIRECT',
+                    'GEOIP,IR,DIRECT',
+                    'MATCH,🚀 انتخاب'
+                ]
+            }
+            
+            # ذخیره فایل
+            with open('clash-mohimo.yaml', 'w', encoding='utf-8') as f:
+                yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+            
+            print("\n✅ فایل clash-mohimo.yaml ایجاد شد!")
+            print(f"📦 حجم فایل: {len(yaml.dump(clash_config))} bytes")
+
+        if __name__ == '__main__':
+            main()
+        EOF
+        
+        chmod +x convert_to_clash.py
+
+    - name: Convert to Clash
       run: |
-        echo "🔄 تبدیل به فرمت Clash..."
-        
-        # URL encode کردن لینک
-        SOURCE_URL="https://raw.githubusercontent.com/x45fh56/tgs/refs/heads/main/Servers/Protocols/vless.txt"
-        
-        # تبدیل با پارامترهای مختلف
-        curl -v -o clash-mohimo.yaml \
-          "http://localhost:25500/sub?target=clash&new_name=true&url=${SOURCE_URL}&emoji=true&list=false&udp=true&tfo=false&expand=true&scv=false&fdn=false"
-        
-        echo ""
-        echo "📄 نتیجه تبدیل:"
-        cat clash-mohimo.yaml
+        python3 convert_to_clash.py
 
     - name: Verify Output
       run: |
-        echo "🔍 بررسی فایل خروجی..."
-        
-        if [ -f clash-mohimo.yaml ]; then
-          FILE_SIZE=$(wc -c < clash-mohimo.yaml)
-          echo "✅ فایل ایجاد شد - حجم: $FILE_SIZE bytes"
-          
-          if [ "$FILE_SIZE" -lt 100 ]; then
-            echo "⚠️ فایل خیلی کوچکه! احتمالاً خطا داره"
-            cat clash-mohimo.yaml
-          else
-            echo "✅ فایل به نظر صحیح است"
-            echo ""
-            echo "📋 60 خط اول:"
-            head -60 clash-mohimo.yaml
-          fi
-        else
-          echo "❌ فایل ایجاد نشد!"
-          exit 1
-        fi
-
-    - name: Fallback - Direct Conversion
-      if: failure()
-      run: |
-        echo "🔧 روش جایگزین: تبدیل مستقیم..."
-        
-        # استفاده از API عمومی subconverter
-        curl -o clash-mohimo.yaml \
-          "https://api.subconverter.org/sub?target=clash&url=https://raw.githubusercontent.com/x45fh56/tgs/refs/heads/main/Servers/Protocols/vless.txt"
-        
-        cat clash-mohimo.yaml
+        echo "🔍 بررسی فایل نهایی..."
+        ls -lh clash-mohimo.yaml
+        echo ""
+        echo "📋 نمونه از فایل:"
+        head -100 clash-mohimo.yaml
 
     - name: Upload Artifact
-      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: clash-config-mohimo
@@ -115,9 +230,3 @@ jobs:
         branch: main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Cleanup
-      if: always()
-      run: |
-        docker stop subconverter || true
-        docker rm subconverter || true
