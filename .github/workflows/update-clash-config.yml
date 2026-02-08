@@ -1,0 +1,53 @@
+name: Update Clash Config for Mohimo
+
+on:
+  workflow_dispatch:  # اجرای دستی
+  schedule:
+    - cron: '30 10 * * *'  # هر روز ساعت 15:00 به وقت تهران (10:30 UTC)
+
+jobs:
+  convert-to-clash:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Start Subconverter Docker
+      run: |
+        docker run -d --name subconverter -p 25500:25500 tindy2013/subconverter:latest
+        echo "Waiting for Subconverter to start..."
+        sleep 10
+
+    - name: Download and Convert to Clash
+      run: |
+        curl -o clash-mohimo.yaml \
+          "http://localhost:25500/sub?target=clash&url=https://raw.githubusercontent.com/x45fh56/tgs/refs/heads/main/Servers/Protocols/vless.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+
+    - name: Verify Output
+      run: |
+        echo "✅ فایل Clash تولید شد:"
+        ls -lh clash-mohimo.yaml
+        echo ""
+        echo "📄 محتوای فایل (60 خط اول):"
+        head -60 clash-mohimo.yaml
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: clash-config-mohimo
+        path: clash-mohimo.yaml
+        retention-days: 30
+
+    - name: Commit and Push
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "🔄 به‌روزرسانی خودکار کانفیگ Clash - $(date +'%Y-%m-%d %H:%M')"
+        file_pattern: "clash-mohimo.yaml"
+        branch: main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Stop Docker Container
+      if: always()
+      run: docker stop subconverter || true
