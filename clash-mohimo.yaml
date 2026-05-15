@@ -8,19 +8,6 @@ proxies:
 - name: BrilliantGift
   type: vless
   server: snapp.ir
-  port: 80
-  uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hubfile.zpax.ir
-- name: BrilliantGift
-  type: vless
-  server: snapp.ir
   port: 8080
   uuid: 85a53fd1-80ad-4de9-a1fa-a13580c4f286
   udp: true
@@ -31,99 +18,7 @@ proxies:
     path: /
     headers:
       Host: api.shomalnojm.ir
-- name: ConfigX2ray
-  type: vless
-  server: SpeeD6630CSf.sismonifarangi.shop
-  port: 443
-  uuid: 5d5e2bf6-c92e-4c75-914f-6aa14d1988e3
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: SpeeD6630CSf.sismonifarangi.shop
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /leonvpn
-    headers:
-      Host: SpeeD6630CSf.sismonifarangi.shop
-- name: ConfigX2ray
-  type: vless
-  server: dl4.paycollection.lol
-  port: 80
-  uuid: dc7b8019-893f-4583-b95c-044b1f9696f4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /flutter
-    headers:
-      Host: dl4.paycollection.lol
-- name: ConfigX2ray
-  type: vless
-  server: 185.221.239.67
-  port: 2222
-  uuid: 04738fc0-2279-4e80-a641-5e99485a1367
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: ConfigX2ray
-  type: vless
-  server: kubernetes.io
-  port: 443
-  uuid: Telegram-Parsashonam
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: xhttp
-  servername: kubernetes.io
-  alpn:
-  - h2
-  - http/1.1
-- name: Do1rcci
-  type: vless
-  server: 185.143.233.5
-  port: 2083
-  uuid: cba48ff5-3e65-4028-a505-55067b663f2d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sub.sesrsa.com
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-    headers:
-      Host: p1.sesrsa.com
-- name: Do1rcci
-  type: vless
-  server: ngame.thegameuhb.ir
-  port: 8800
-  uuid: ad48afc6-4003-4735-b6ad-d13e97cbb298
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: Do1rcci
-  type: vless
-  server: 185.143.233.5
-  port: 2083
-  uuid: aa1cf042-5b4e-4f47-8df3-be64f6c41f53
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sub.sesrsa.com
-  client-fingerprint: firefox
-  ws-opts:
-    path: /
-    headers:
-      Host: p1.sesrsa.com
-- name: Do1rcci
+- name: BrilliantGift
   type: vless
   server: snapp.ir
   port: 80
@@ -136,65 +31,76 @@ proxies:
     path: /
     headers:
       Host: hubfile.zpax.ir
-- name: Do1rcci
+- name: ConfigX2ray
   type: vless
-  server: arvancloud.ir
+  server: adler-1g.adelshoop.net
   port: 80
-  uuid: 1c0d708e-6b8d-4ac2-8766-a4d40ad20244
+  uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3
   udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: host.starservice.lol
 - name: Do1rcci
   type: vless
-  server: aparatrat1.info
-  port: 2083
-  uuid: 3b71be10-6c10-45e9-95e6-e469f7a0ae63
+  server: adler-1g.adelshoop.net
+  port: 80
+  uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3
   udp: true
   tls: false
   skip-cert-verify: false
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
 - name: FreakConfig
   type: vless
-  server: dd.openaccessnode.com
-  port: 50
-  uuid: 75193bef-8d8f-e823-41e0-2dd083dc1399
+  server: 162.19.10.94
+  port: 443
+  uuid: nasnet
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: tcp
+  servername: nasnet-162191094-direct.sharghdaily.co
+  flow: xtls-rprx-vision
 - name: FreakConfig
   type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 85.239.33.76
+  port: 4354
+  uuid: 4c3a2f39-dc52-4322-ac66-83010d12bfc0
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  servername: apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
 - name: FreakConfig
   type: vless
-  server: jp.cdn.stun.su
-  port: 443
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  server: wolf2.adslimit.info
+  port: 2345
+  uuid: 7007111a-c28b-4ab1-8d28-bc7b42681028
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: FreakConfig
+  type: vless
+  server: 4.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: 2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks
-    short-id: f189d91760bb6663
-  servername: jp.cdn.stun.su
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: 67b1e94e4dd1ef90
+  servername: icloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
 - name: FreakConfig
@@ -213,337 +119,19 @@ proxies:
       Host: vpnazadie.store
 - name: FreakConfig
   type: vless
-  server: 185.227.149.123
+  server: jp.cdn.stun.su
   port: 443
-  uuid: 7c3f08c8-7b3b-4028-91d8-378a18c2b62a
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  servername: mycatcollection.com
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: hetz.x-smm.com
-  ws-opts:
-    path: /45.76.183.217=49292
-    headers:
-      Host: hetz.x-smm.com
-- name: FreakConfig
-  type: vless
-  server: 45.136.126.16
-  port: 443
-  uuid: 203b0744-f943-4bba-a8d2-cab635467c46
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: _L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0
-    short-id: d020b2
-  servername: google.com
-  client-fingerprint: chrome
-- name: FreakConfig
-  type: vless
-  server: 4.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  servername: icloud.com
+    public-key: 2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks
+    short-id: f189d91760bb6663
+  servername: jp.cdn.stun.su
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: kz01-vlr01.tcp-reset-club.net
-  port: 443
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  servername: hls-svod.itunes.apple.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: 185.162.11.223
-  port: 443
-  uuid: a7b1b295-89c0-4794-bc3b-13af6cf63312
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: htJuCzotUMp7MYP7ZEWKWT1iEuAbr5cDKoX32Ego6WE
-    short-id: edbc04c389
-  servername: sun6-21.userapi.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: 165.22.49.27
-  port: 2567
-  uuid: 0f021ee3-772e-4e24-e0d1-415a2e4a61e1
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: FreakConfig
-  type: vless
-  server: 108.162.195.193
-  port: 443
-  uuid: e819cfb1-3c30-48b0-957d-e479bace661b
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 105dlws.aboutgoogle.info
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /105dlws
-    headers:
-      Host: 105dlws.aboutgoogle.info
-- name: FreakConfig
-  type: vless
-  server: simurgh.adslimit.info
-  port: 2345
-  uuid: 20adc847-4159-4f39-b79f-d563b660945f
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: FreakConfig
-  type: vless
-  server: download.lastilhame.monster
-  port: 443
-  uuid: a8da758c-510d-4827-83cf-2f2b51c49c5b
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: WOPZy8oOnvHN21pLYobZAGa7sVp7op3q575B5BaFxkU
-    short-id: faa900664bad
-  servername: www.techradar.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: freedom.gov
-  port: 443
-  uuid: 98aec3c3-d957-4363-9933-018e533c7c06
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: uk.dlaparat.ir
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /?host:localhoat:443/
-    headers:
-      Host: uk.dlaparat.ir
-- name: FreakConfig
-  type: vless
-  server: 162.19.10.94
-  port: 443
-  uuid: nasnet
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: nasnet-162191094-direct.sharghdaily.co
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: 94.184.24.235
-  port: 56001
-  uuid: 48e3ec8d-44ce-4542-aa4d-a48573e0d423
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: FreakConfig
-  type: vless
-  server: glob.thisiswe.uno
-  port: 8443
-  uuid: aab1a536-7a2c-4357-a0e0-8cdde41845c6
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: nobitex.sylu.net
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /
-    headers:
-      Host: nobitex.sylu.net
-- name: FreakConfig
-  type: vless
-  server: wolf2.adslimit.info
-  port: 2345
-  uuid: 7007111a-c28b-4ab1-8d28-bc7b42681028
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: FreakConfig
-  type: vless
-  server: 5.cdnconn.com
-  port: 23335
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: ''
-  servername: icloud.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: betty.ns.cloudflare.com
-  port: 2096
-  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: hetz.x-smm.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /45.76.183.217=49292
-    headers:
-      Host: hetz.x-smm.com
-- name: FreakConfig
-  type: vless
-  server: 199.241.32.132
-  port: 26978
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: 28bf
-  servername: tesla.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: reserved.fastnodegate.com
-  port: 8443
-  uuid: f84cadb07ef447bfafeeb88a4c88a12c
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: nJ6XfI-g6Opkwd3HTkcxJL38NmEAf_IorIYksckcZEM
-    short-id: '70'
-  servername: fastnodegate.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: 144.31.17.80
-  port: 30677
-  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
-    short-id: '47595474'
-  servername: google.com
-  client-fingerprint: chrome
-- name: FreakConfig
-  type: vless
-  server: hk.tfree.top
-  port: 10006
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
-    short-id: 590bdc3b6dad
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: cid.wlrus.lol
-  port: 37016
-  uuid: c6be0a05-6105-4c0a-8af5-3e227f10735f
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: YlwO0m3fxSkKzi0RqOadx0fDPUyDTmUEmHP97bvV7QQ
-    short-id: 6d37bd51
-  servername: www.nvidia.com
-  client-fingerprint: chrome
-- name: FreakConfig
-  type: vless
-  server: www.speedtest.net
-  port: 2096
-  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: hetz.x-smm.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /45.76.183.217=49292
-    headers:
-      Host: hetz.x-smm.com
-- name: FreakConfig
-  type: vless
-  server: 64.188.104.168
-  port: 40721
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
-  servername: yahoo.com
-  client-fingerprint: chrome
 - name: FreakConfig
   type: vless
   server: 3.cdnconn.com
@@ -557,21 +145,6 @@ proxies:
     public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
     short-id: 67b1e94e4dd1ef90
   servername: icloud.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: FreakConfig
-  type: vless
-  server: 85.239.33.76
-  port: 4354
-  uuid: 4c3a2f39-dc52-4322-ac66-83010d12bfc0
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  servername: apple.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
 - name: FreakConfig
@@ -591,69 +164,58 @@ proxies:
   flow: xtls-rprx-vision
 - name: FreakConfig
   type: vless
-  server: 51.158.206.98
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  server: 144.31.17.80
+  port: 30677
+  uuid: b86c0cdc-8a02-4da4-8693-72ba27005587
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
+    public-key: 2UqLjQFhlvLcY7VzaKRotIDQFOgAJe1dYD1njigp9wk
+    short-id: '47595474'
+  servername: google.com
+  client-fingerprint: chrome
+- name: FreakConfig
+  type: vless
+  server: 5.cdnconn.com
+  port: 23335
+  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+    short-id: ''
+  servername: icloud.com
   client-fingerprint: chrome
   flow: xtls-rprx-vision
 - name: FreakConfig
   type: vless
-  server: 38.180.132.206
-  port: 443
-  uuid: 11e559f8-f5b7-48be-9ab5-7fc0915569e0
+  server: simurgh.adslimit.info
+  port: 2345
+  uuid: 20adc847-4159-4f39-b79f-d563b660945f
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: tcp
-  reality-opts:
-    public-key: MvZRXOgSBhkQB88kC6CnjiKs7pveuPMWA_TFSOvyRQ0
-    short-id: cf12caecc0
-  servername: google.com
-  client-fingerprint: chrome
 - name: NetShot1
   type: vless
-  server: varzesh3.com
+  server: adler-1g.adelshoop.net
   port: 80
-  uuid: bb355748-5b12-4041-8f5e-7687af6aaa99
+  uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3
   udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: proto.helexm.ir
-- name: NetShot1
-  type: vless
-  server: snapppay.ir
-  port: 8443
-  uuid: b4515f21-e551-40af-9f6f-6af378b01759
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: salamiran.shomalnojm.ir
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-  ws-opts:
-    path: /
-    headers:
-      Host: salamiran.shomalnojm.ir
 - name: NetShot1
   type: vless
   server: 185.143.233.5
-  port: 2083
-  uuid: 1e725dce-b70e-4a9c-a144-3d4ca73371f3
+  port: 2087
+  uuid: ba7bd983-5d51-46d0-8296-5dc47e01d40d
   udp: true
   tls: true
   skip-cert-verify: false
@@ -666,96 +228,32 @@ proxies:
       Host: p1.sesrsa.com
 - name: NetShot1
   type: vless
-  server: snapp.ir
-  port: 8080
-  uuid: 92e36f34-11f1-4312-9fda-af253712d09a
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: M2.snllshop.ir
-- name: NetShot1
-  type: vless
-  server: varzesh3.com
-  port: 80
-  uuid: d2838d3a-6a17-4adb-921a-d7679ec0eedf
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proto.helexm.ir
-- name: NetShot1
-  type: vless
-  server: varzesh3.com
-  port: 80
-  uuid: 92af1fcb-70e3-4d6a-b602-e9c6aebc331d
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proto.helexm.ir
-- name: NetShot1
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 6a2405d9-61e2-4c74-a638-b2e2899e1995
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pa1.ghostantaniehh.ir
-- name: byiroh
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hubfile.zpax.ir
-- name: byiroh
-  type: vless
-  server: varzesh3.com
-  port: 80
-  uuid: 5a08401e-72ff-49a3-9630-079f20193142
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: nobody.fasterspeed.ir
-- name: dingyue_center
-  type: vless
-  server: 216.250.96.164
-  port: 26000
-  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  server: 185.143.233.5
+  port: 2087
+  uuid: cd7c3983-ce35-45a6-b1e7-e5105376caa7
   udp: true
   tls: true
   skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
-    short-id: 2f8400e348eb
-  servername: apps.apple.com
-  client-fingerprint: chrome
+  network: ws
+  servername: sub.sesrsa.com
+  client-fingerprint: firefox
+  ws-opts:
+    path: /
+    headers:
+      Host: p1.sesrsa.com
+- name: byiroh
+  type: vless
+  server: snapp.ir
+  port: 2052
+  uuid: 72005558-6498-4925-a005-98583360d500
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /rsvpn
+    headers:
+      Host: rsvpn2.xchitozx.org
 - name: dingyue_center
   type: vless
   server: pq.vmjp2.yydjc.top
@@ -773,6 +271,20 @@ proxies:
   flow: xtls-rprx-vision
 - name: dingyue_center
   type: vless
+  server: 216.250.96.164
+  port: 26000
+  uuid: ab69adf9-4d3a-4625-aef6-eb6a034a5dd3
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: YV566KZSJfmxKb0qfAGMP5jOVPPb_q9rbK10oNZjWxc
+    short-id: 2f8400e348eb
+  servername: apps.apple.com
+  client-fingerprint: chrome
+- name: dingyue_center
+  type: vless
   server: cf.tencentapp.cn
   port: 443
   uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -786,88 +298,6 @@ proxies:
     path: /proxyip=122.10.114.184:8443
     headers:
       Host: zgtwylnhh.cc.cd
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: new_mtproxi2
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: y6-3cj.PAgES.DEV
-  ws-opts:
-    path: /
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: new_mtproxi2
-  type: vless
-  server: 172.64.149.54
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: new_mtproxi2
-  type: vless
-  server: 37.32.27.85
-  port: 80
-  uuid: 03169156-319b-448a-b96a-206ce351ad96
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: a1.supreme-xfast.ir
 - name: new_mtproxi2
   type: vless
   server: 104.18.12.149
@@ -885,8 +315,17 @@ proxies:
       Host: aAJIBE.offliNe-yoUu.ir
 - name: new_mtproxi2
   type: vless
+  server: a-m.iran-mehrbu.ir
+  port: 3131
+  uuid: fafe7971-b3fb-4f99-a9d7-46374153f64e
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: new_mtproxi2
+  type: vless
   server: 104.18.13.149
-  port: 8443
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
@@ -898,21 +337,169 @@ proxies:
       Host: sni.111000.v6.navy
 - name: new_mtproxi2
   type: vless
-  server: 188.114.98.0
+  server: 104.18.13.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /?Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.13.149
   port: 443
-  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  uuid: f8ba32b4-0c40-49ed-a895-f9b07c51114f
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: zh.hollowspot.ir
+  servername: x.mtt1.xyz
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOLTXT
+    headers:
+      Host: x.mtt1.xyz
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.12.149
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: new_mtproxi2
+  type: vless
+  server: connected5.starpo5.ir
+  port: 8080
+  uuid: 66926652-ad9b-4fbb-9b6c-f4985c82e425
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.13.149
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: new_mtproxi2
+  type: vless
+  server: blackskyvpnn.blackskyvpn.com
+  port: 28764
+  uuid: 2170e394-db32-4602-934c-c0cd0b2a5118
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: new_mtproxi2
+  type: vless
+  server: 102.37.155.79
+  port: 443
+  uuid: a2a7636b-25d9-4f83-941c-ba88cef9e2e2
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  reality-opts:
+    public-key: 2Y_6l4fk42l4SRZ2XKPQHu27uEWCWZnYOdh_dtQzcAI
+    short-id: 33a6
+  servername: mirror.arvancloud.ir
+  client-fingerprint: chrome
+- name: new_mtproxi2
+  type: vless
+  server: thesis.mhub-mc.ir
+  port: 3010
+  uuid: c4e2512d-060c-59a7-ad20-be4284298eeb
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: 8DGDiqDs99PvQGTjFh4Xu_4DmuKbk5bDJsUb73gEzW0
+    short-id: e32df1fa9070e48e
+  servername: refersion.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: new_mtproxi2
+  type: vless
+  server: 104.17.72.206
+  port: 443
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 2026.hhhhh.eu.org
+  ws-opts:
+    path: /222.167.202.31:7443
+    headers:
+      Host: 2026.hhhhh.eu.org
+- name: new_mtproxi2
+  type: vless
+  server: ips.cf.mobileemdad.top
+  port: 443
+  uuid: 0a79b7d7-b991-4577-afb3-715d718f5cce
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  servername: dl.mobileemdad.top
   client-fingerprint: chrome
   alpn:
-  - http/1.1
+  - h2
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.12.149
+  port: 443
+  uuid: 11388a7f-e3ef-4abf-b076-c537401f035e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: backfall.azadiconfig.top
+  client-fingerprint: firefox
   ws-opts:
-    path: /
+    path: /app
     headers:
-      Host: zh.hollowspot.ir
+      Host: backfall.azadiconfig.top
+- name: new_mtproxi2
+  type: vless
+  server: www.vidboxco.ir
+  port: 443
+  uuid: 0a79b7d7-b991-4577-afb3-715d718f5cce
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  servername: dl.mobileemdad.top
+  client-fingerprint: chrome
+  alpn:
+  - h2
+- name: new_mtproxi2
+  type: vless
+  server: 151.101.65.194
+  port: 80
+  uuid: 3e8c4f81-4eb2-46ab-8b04-97a6a45e00d0
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: xhttp
 - name: new_mtproxi2
   type: vless
   server: 104.18.13.149
@@ -951,16 +538,121 @@ proxies:
       Host: sni.111000.v6.navy
 - name: new_mtproxi2
   type: vless
-  server: 104.18.16.56
-  port: 2083
-  uuid: 8d84c739-d26c-449f-a58b-d0674169504d
+  server: 104.18.13.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: cds.amcazador.sbs
+  servername: sni.111000.v6.navy
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: new_mtproxi2
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: cff6f361-828a-43c8-a8b5-8d10b32e57fb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: zh.hollowspot.ir
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
   ws-opts:
     path: /
+    headers:
+      Host: zh.hollowspot.ir
+- name: new_mtproxi2
+  type: vless
+  server: 37.32.27.85
+  port: 80
+  uuid: 03169156-319b-448a-b96a-206ce351ad96
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a1.supreme-xfast.ir
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.12.149
+  port: 443
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: y6-3cj.PAgES.DEV
+  ws-opts:
+    path: /
+    headers:
+      Host: y6-3cj.PAgES.DEV
+- name: new_mtproxi2
+  type: vless
+  server: 188.114.98.0
+  port: 2082
+  uuid: f0ff4425-8c26-4d81-8662-f34593060c8d
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: DOFF.mehrsazi.ir
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.12.149
+  port: 2053
+  uuid: e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: xhttp
+  servername: itfgnf-hkjkhfmhghf-hjmngb.infinitecreativehorizons.com
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.13.149
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.13.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.dynv6.net
+  ws-opts:
+    path: /?Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: new_mtproxi2
+  type: vless
+  server: 104.18.4.130
+  port: 443
+  uuid: 501e461e-02f6-4293-8334-d6ba7c076dd9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  servername: cdn.dns.xn--q9jyb4c
 - name: new_mtproxi2
   type: vless
   server: 104.16.80.73
@@ -982,29 +674,17 @@ proxies:
 - name: new_mtproxi2
   type: vless
   server: 188.114.98.0
-  port: 2082
-  uuid: f0ff4425-8c26-4d81-8662-f34593060c8d
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: DOFF.mehrsazi.ir
-- name: new_mtproxi2
-  type: vless
-  server: ips.cf.mobileemdad.top
   port: 443
-  uuid: 0a79b7d7-b991-4577-afb3-715d718f5cce
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
   udp: true
   tls: true
   skip-cert-verify: false
-  network: xhttp
-  servername: dl.mobileemdad.top
-  client-fingerprint: chrome
-  alpn:
-  - h2
+  network: ws
+  servername: y6-3cj.PAgES.DEV
+  ws-opts:
+    path: /
+    headers:
+      Host: y6-3cj.PAgES.DEV
 - name: new_mtproxi2
   type: vless
   server: 185.162.231.138
@@ -1021,83 +701,16 @@ proxies:
       Host: sni.111000.indevs.in
 - name: new_mtproxi2
   type: vless
-  server: 104.18.13.149
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.12.149
-  port: 2053
-  uuid: e44c9ff3-5a05-4ee9-b050-b8fbc7c1af04
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: xhttp
-  servername: itfgnf-hkjkhfmhghf-hjmngb.infinitecreativehorizons.com
-- name: new_mtproxi2
-  type: vless
-  server: 104.17.72.206
-  port: 443
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 2026.hhhhh.eu.org
-  ws-opts:
-    path: /222.167.202.31:7443
-    headers:
-      Host: 2026.hhhhh.eu.org
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 104.18.16.56
+  port: 2083
+  uuid: 8d84c739-d26c-449f-a58b-d0674169504d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: sni.111000.indevs.in
+  servername: cds.amcazador.sbs
   ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.12.149
-  port: 443
-  uuid: 11388a7f-e3ef-4abf-b076-c537401f035e
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: backfall.azadiconfig.top
-  client-fingerprint: firefox
-  ws-opts:
-    path: /app
-    headers:
-      Host: backfall.azadiconfig.top
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
+    path: /
 - name: new_mtproxi2
   type: vless
   server: 104.18.12.149
@@ -1118,6 +731,20 @@ proxies:
       Host: nl4.maxriser.ir
 - name: new_mtproxi2
   type: vless
+  server: 102.37.155.79
+  port: 443
+  uuid: a2a7636b-25d9-4f83-941c-ba88cef9e2e2
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: xhttp
+  reality-opts:
+    public-key: 2Y_6l4fk42l4SRZ2XKPQHu27uEWCWZnYOdh_dtQzcAI
+    short-id: 33a6
+  servername: mirror.arvancloud.ir
+  client-fingerprint: chrome
+- name: new_mtproxi2
+  type: vless
   server: snapp.ir
   port: 80
   uuid: fbd73a5f-3ed7-49d3-8649-55af03dc36cb
@@ -1131,1056 +758,22 @@ proxies:
       Host: firelink.arian-go-internet.ir
 - name: new_mtproxi2
   type: vless
-  server: thesis.mhub-mc.ir
-  port: 3010
-  uuid: c4e2512d-060c-59a7-ad20-be4284298eeb
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 8DGDiqDs99PvQGTjFh4Xu_4DmuKbk5bDJsUb73gEzW0
-    short-id: e32df1fa9070e48e
-  servername: refersion.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.12.149
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: new_mtproxi2
-  type: vless
-  server: www.vidboxco.ir
-  port: 443
-  uuid: 0a79b7d7-b991-4577-afb3-715d718f5cce
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: xhttp
-  servername: dl.mobileemdad.top
-  client-fingerprint: chrome
-  alpn:
-  - h2
-- name: new_mtproxi2
-  type: vless
-  server: 102.37.155.79
-  port: 443
-  uuid: a2a7636b-25d9-4f83-941c-ba88cef9e2e2
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: xhttp
-  reality-opts:
-    public-key: 2Y_6l4fk42l4SRZ2XKPQHu27uEWCWZnYOdh_dtQzcAI
-    short-id: 33a6
-  servername: mirror.arvancloud.ir
-  client-fingerprint: chrome
-- name: new_mtproxi2
-  type: vless
-  server: connected5.starpo5.ir
-  port: 8080
-  uuid: 66926652-ad9b-4fbb-9b6c-f4985c82e425
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: new_mtproxi2
-  type: vless
-  server: 102.37.155.79
-  port: 443
-  uuid: a2a7636b-25d9-4f83-941c-ba88cef9e2e2
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: xhttp
-  reality-opts:
-    public-key: 2Y_6l4fk42l4SRZ2XKPQHu27uEWCWZnYOdh_dtQzcAI
-    short-id: 33a6
-  servername: mirror.arvancloud.ir
-  client-fingerprint: chrome
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.12.149
-  port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: y6-3cj.PAgES.DEV
-  ws-opts:
-    path: /
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- name: new_mtproxi2
-  type: vless
-  server: blackskyvpnn.blackskyvpn.com
-  port: 28764
-  uuid: 2170e394-db32-4602-934c-c0cd0b2a5118
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.13.149
-  port: 443
-  uuid: f8ba32b4-0c40-49ed-a895-f9b07c51114f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: x.mtt1.xyz
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOLTXT
-    headers:
-      Host: x.mtt1.xyz
-- name: new_mtproxi2
-  type: vless
-  server: a-m.iran-mehrbu.ir
-  port: 3131
-  uuid: fafe7971-b3fb-4f99-a9d7-46374153f64e
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: new_mtproxi2
-  type: vless
-  server: 151.101.65.194
-  port: 80
-  uuid: 3e8c4f81-4eb2-46ab-8b04-97a6a45e00d0
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: xhttp
-- name: new_mtproxi2
-  type: vless
-  server: 104.18.4.130
-  port: 443
-  uuid: 501e461e-02f6-4293-8334-d6ba7c076dd9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: xhttp
-  servername: cdn.dns.xn--q9jyb4c
-- name: oneclickvpnkeys
-  type: vless
-  server: 162.159.32.23
-  port: 2053
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cocobaby.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: cocobaby.pages.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 5.10.247.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.my111000.tech
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.155.209
-  port: 80
-  uuid: 787b3724-16c8-4e58-a038-2b8013cdc6d9
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTG1jRlUwNjNwVUxvYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: c3linogp4x20x5acoguup217nstesdu1.nobodyface4b13.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 87.251.87.157
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 152.233.28.198
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: tcp
-  servername: uk1.fromblancwithlove.com
-  alpn:
-  - h2
-- name: oneclickvpnkeys
-  type: vless
-  server: 162.159.152.119
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: pagescm.freen36.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /downloads/redirect.html
-    headers:
-      Host: pagescm.freen36.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 43.250.54.97
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 92.53.191.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.120.16.208
-  port: 443
-  uuid: b25d866f-1391-41d3-9509-4efd2215258d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: rH0vZkY3Wyc8Ol-pLWEPx22hpg6ovrLFK9Sp0aQLcT0
-    short-id: 7a3f5c8e2b4d1a69
-  servername: valorant.secure.dyn.riotcdn.net
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.19.49.198
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: pagescm.freen14.cc.cd
-  ws-opts:
-    path: /shop
-    headers:
-      Host: pagescm.freen14.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.156.19.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.67.150.254
-  port: 2095
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: iioo.iioou.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 212.34.139.152
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
-    headers:
-      Host: sni.111000.v6.navy
-- name: oneclickvpnkeys
-  type: vless
-  server: 144.31.237.162
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.army
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: oneclickvpnkeys
-  type: vless
-  server: 92.243.74.4
-  port: 8443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: firefox
-  ws-opts:
-    path: /play/upload/movie/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.5.46
-  port: 8880
-  uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 8.39.125.134
-  port: 2096
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cocobaby.pages.dev
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cocobaby.pages.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.147.210
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 2026.hhhhh.eu.org
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.37.133
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.army
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: oneclickvpnkeys
-  type: vless
-  server: 91.193.58.80
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.v6.rocks
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-- name: oneclickvpnkeys
-  type: vless
-  server: 2.27.7.250
-  port: 443
-  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
-    short-id: 6ba85179e30d4fc2
-  servername: www.google.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.120.16.208
-  port: 8443
-  uuid: f546691e-c631-45a5-a399-fbf0d1a4fa02
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: BDyM9fEqTWGuUfygYOQVEomwVdNv2A3cj-M1t00fBHw
-    short-id: d1e8a2f6c3b90754
-  servername: fastcdn.hoyoverse.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 45.12.30.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.21.227.134
-  port: 8880
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2/
-    headers:
-      Host: frejd.11258.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 188.244.122.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.16.56
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.24.45.247
-  port: 80
-  uuid: 2e71d8fc-d2e8-44fc-89bd-c8a449a193aa
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: odd-bread-435d.ahmadrezasteamacc.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.67.187.145
-  port: 80
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 89.106.83.54
-  port: 443
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 5.10.247.43
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.cc.cd
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.120.16.208
-  port: 2087
-  uuid: bfa4a609-1b77-4c9d-8b7d-2d821235b61c
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 8D9kfvKUuvsA_3quE8T0-3kOu9EOCZBvvLKMMacZTi4
-    short-id: b1c3d5e7f9a0b2c4
-  servername: lolesports.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.13.149
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 108.162.194.248
-  port: 80
-  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mute-violet-c674.poviy66273.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 8.6.112.6
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 188.114.99.243
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
-- name: oneclickvpnkeys
-  type: vless
-  server: 199.107.164.165
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  ws-opts:
-    path: /?Telegram🇨🇳 @WangCai2=
-    headers:
-      Host: sni.111000.dynv6.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.16.158.162
-  port: 80
-  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mute-violet-c674.poviy66273.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.120.16.208
-  port: 2083
-  uuid: 1a8d7f2a-94d7-4a26-872a-f81aba86c137
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: x96ArUs8nUC5GQpePNy8mGpekkN0Td4ky-cPF59eMBM
-    short-id: 8a9b1c2d3e4f5067
-  servername: endfield.gryphline.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
   server: 172.64.149.54
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   servername: sni.111000.dynv6.net
+  client-fingerprint: chrome
   ws-opts:
     path: /?Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.dynv6.net
-- name: oneclickvpnkeys
+- name: new_mtproxi2
   type: vless
-  server: 5.10.245.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.my111000.tech
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.4.46
-  port: 8880
-  uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.16.250.22
-  port: 443
-  uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: lively-brook-c471.nedena3319.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: lively-brook-c471.nedena3319.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 8.39.125.254
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: pagescm.freen23.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /friend/community/apps
-    headers:
-      Host: pagescm.freen23.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 77.238.232.164
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 79.141.171.133
-  port: 443
-  uuid: 4c3fe585-ac09-41df-b284-888818888188
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
-    short-id: aabbccdd
-  servername: apple.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 138.124.32.78
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.19.148.121
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: pagescm.freen33.cc.cd
-  ws-opts:
-    path: /dl
-    headers:
-      Host: pagescm.freen33.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 85.208.139.98
-  port: 8444
-  uuid: c931f737-cafe-4e4f-998a-a65517941256
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik
-    short-id: 77e934f68f02ab4c
-  servername: cdnjs.com
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.20.6.134
-  port: 2086
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /PdgTMW8NBNZYo6L23v
-    headers:
-      Host: index.0x15.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 94.183.177.149
-  port: 443
-  uuid: ce26f4a4-dac9-427b-8731-5297d8d9b7a6
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: kyWPXUwlQP4fXoNgq07O7uAibgbqIt076MQzR9huDC8
-    short-id: 7e8b7e5f0d53d777
-  servername: nl2.node.velum-vpn.ru
-  flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 27.50.48.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.my111000.tech
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.147.2
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 216.205.52.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 195.226.194.222
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.dns.army
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.dns.army
-- name: oneclickvpnkeys
-  type: vless
-  server: 146.59.228.153
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.navy
-  ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
-    headers:
-      Host: sni.111000.v6.navy
-- name: oneclickvpnkeys
-  type: vless
-  server: 148.253.210.141
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 135.84.74.65
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.21.224.5
-  port: 80
-  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aa.beijng.dpdns.org
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.19.62.173
-  port: 2096
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: pagescm.freen13.cc.cd
-  ws-opts:
-    path: /zh-tw
-    headers:
-      Host: pagescm.freen13.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 162.159.152.120
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: pagescm.freen29.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /code/dl
-    headers:
-      Host: pagescm.freen29.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 135.84.73.220
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 195.181.173.199
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: tcp
-  servername: ams1.fromblancwithlove.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.15.19
-  port: 80
-  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 162.159.153.70
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 45.130.125.138
+  server: 104.18.13.149
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -2189,93 +782,11 @@ proxies:
   network: ws
   servername: sni.111000.indevs.in
   ws-opts:
-    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 104.16.58.115
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.146.1
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.16.155.197
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.army
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.111000.v6.army
-- name: oneclickvpnkeys
-  type: vless
-  server: 188.114.98.0
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 35.156.76.43
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/youtube@ZYFXS🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 51.91.248.99
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 72.56.62.253
+  server: r1.mizulina.top
   port: 22231
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   udp: true
@@ -2283,49 +794,8 @@ proxies:
   skip-cert-verify: false
   network: tcp
   servername: r1.mizulina.top
-  client-fingerprint: chrome
+  client-fingerprint: edge
   flow: xtls-rprx-vision
-- name: oneclickvpnkeys
-  type: vless
-  server: 8.39.125.251
-  port: 2096
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cocobaby.pages.dev
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cocobaby.pages.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.18.173.103
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.latonyamadeline.ndjp.net
-  ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.67.203.94
-  port: 2086
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: iioo.iioou.workers.dev
 - name: oneclickvpnkeys
   type: vless
   server: 162.159.32.222
@@ -2342,8 +812,106 @@ proxies:
       Host: cocobaby.pages.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 104.26.3.180
-  port: 2083
+  server: 144.31.30.45
+  port: 443
+  uuid: f53cb93c-9cd2-4952-9660-4b4ff4b74484
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: OsyBt6w9NBZdXMBcoZbfGsObubUakouoGhU2coBK_3o
+    short-id: 83fc923fab83
+  servername: max.ru
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 054b9fdb-4ca8-4b2e-9855-c1515c4937c5
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: ekhtelal120.mobailfarid4.ir
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ekhtelal120.mobailfarid4.ir
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.155.209
+  port: 443
+  uuid: 3c36eadb-747a-4166-8db0-23fec9883ea2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: harmony-501.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /socks5://128.140.46.169:13482
+    headers:
+      Host: harmony-501.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 154.194.12.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.148.106.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: babayaga-6i7.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: ciallo-egb.pages.dev
+  port: 2087
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: CIallO-egB.pAGes.Dev
+  ws-opts:
+    path: //
+    headers:
+      Host: CIallO-egB.pAGes.Dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 5.10.247.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 8.39.125.251
+  port: 2096
   uuid: b818576e-951a-4a9c-879a-d32611b977ad
   udp: true
   tls: true
@@ -2356,20 +924,142 @@ proxies:
       Host: cocobaby.pages.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 5.10.247.138
-  port: 2096
+  server: 172.64.152.23
+  port: 443
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 2026.hhhhh.eu.org
+  ws-opts:
+    path: /
+    headers:
+      Host: 2026.hhhhh.eu.org
+- name: oneclickvpnkeys
+  type: vless
+  server: 35.156.76.43
+  port: 2053
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: sni.111000.indevs.in
+  servername: sni.latonyamadeline.ndjp.net
   ws-opts:
+    path: /?https://t.me/youtube@ZYFXS🇨🇳=
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.latonyamadeline.ndjp.net
 - name: oneclickvpnkeys
   type: vless
-  server: 172.64.144.183
+  server: 104.26.3.249
+  port: 2053
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.18.4.46
+  port: 8880
+  uuid: 623d675e-8748-4881-ac0f-dc1a10b595b1
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vahidasd1988-se08ot-3.vahidasd1988.workers.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 88.218.94.10
+  port: 443
+  uuid: 7bd29cac-f692-48a3-88d1-505f7e55f0d0
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: sub.sbrf-cdn342.ru
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.146.153
+  port: 80
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tt.andishehparenting.com
+- name: oneclickvpnkeys
+  type: vless
+  server: 45.142.120.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: france.pineappled.org
+  port: 443
+  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 162.159.33.40
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /?https://t.me/wangcai2🇨🇳=
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+- name: oneclickvpnkeys
+  type: vless
+  server: store.ubi.com
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen8.de5.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /products
+    headers:
+      Host: pagescm.freen8.de5.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.67.75.238
   port: 443
   uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   udp: true
@@ -2379,9 +1069,324 @@ proxies:
   servername: pagescm.freen7.de5.net
   client-fingerprint: chrome
   ws-opts:
-    path: /urls/images/detail
+    path: /tools/p
     headers:
       Host: pagescm.freen7.de5.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 162.19.79.211
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /?Telegram🇨🇳+@WangCai2=
+    headers:
+      Host: sni.111000.v6.navy
+- name: oneclickvpnkeys
+  type: vless
+  server: 213.182.199.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 5.175.141.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.jpmj.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 144.31.233.81
+  port: 7443
+  uuid: 00492f4b-95d1-46d9-837a-ebf9c881d81e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: grpc
+  reality-opts:
+    public-key: E7Hb6k6CYEZ0Zoas5inuxx5jM1wks4b9gXSbWVizRxQ
+    short-id: d4bb8712c70539ef
+  servername: apple.com
+  grpc-opts: {}
+- name: oneclickvpnkeys
+  type: vless
+  server: fi.vz-or.com
+  port: 443
+  uuid: cd4796c5-eb68-4ca7-8f0c-37709aaa0d4f
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE
+    short-id: abbcd128
+  servername: sun9-36.userapi.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 8.39.125.251
+  port: 2096
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 209.38.241.0
+  port: 12306
+  uuid: 00000000-0000-4000-8000-000000000000
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  ws-opts:
+    path: /@Marisa_kristifp=chrome
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.158.90
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?https://t.me/wangcai2🇨🇳=
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.16.158.162
+  port: 80
+  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mute-violet-c674.poviy66273.workers.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.26.5.50
+  port: 2087
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.19.40.47
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen7.cc.cd
+  ws-opts:
+    path: /knowledgefp=chrome
+    headers:
+      Host: pagescm.freen7.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 14.102.228.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 57.128.81.193
+  port: 443
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
+    short-id: 239dcd11
+  servername: www.samsung.com
+- name: oneclickvpnkeys
+  type: vless
+  server: 2.26.22.139
+  port: 443
+  uuid: cda21e1a-4a07-412c-ae0b-4e1472bbbace
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: FNUvdW0gSMh30g80qiD2LejYDzbh6vwUGtV3fbihwzk
+    short-id: '2627'
+  servername: google.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 89.116.180.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 108.162.198.63
+  port: 2096
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 45.140.147.139
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: oneclickvpnkeys
+  type: vless
+  server: 195.181.173.199
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+  servername: ams1.fromblancwithlove.com
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.18.189.153
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen3.cc.cd
+  ws-opts:
+    path: /pdf/servicesfp=chrome
+    headers:
+      Host: pagescm.freen3.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.17.72.206
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.dynv6.net
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.18.32.47
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.18.13.149
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: oneclickvpnkeys
+  type: vless
+  server: 167.68.5.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
 - name: oneclickvpnkeys
   type: vless
   server: 162.159.153.231
@@ -2399,71 +1404,155 @@ proxies:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 104.20.5.134
-  port: 2086
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 162.159.32.23
+  port: 2053
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
+  servername: cocobaby.pages.dev
   ws-opts:
-    path: /PdgTMW8NBNZYo6L23v
+    path: /
     headers:
-      Host: index.0x15.workers.dev
+      Host: cocobaby.pages.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 8.35.211.138
+  server: 185.148.106.138
   port: 2096
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: pagescm.freen20.cc.cd
+  servername: sni.111000.indevs.in
   ws-opts:
-    path: /item
+    path: /?Telegram🇨🇳 @WangCai2=
     headers:
-      Host: pagescm.freen20.cc.cd
+      Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 104.17.25.173
-  port: 8880
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
+  server: 185.158.133.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.18.15.19
+  port: 80
+  uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
   udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /Telegram@freecodes/
+    path: /
     headers:
-      Host: frejd.11258.workers.dev
+      Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 185.120.16.208
-  port: 2053
-  uuid: a7bc454f-f664-4438-a8d2-873f13d17a8c
+  server: 85.192.27.113
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+- name: oneclickvpnkeys
+  type: vless
+  server: 173.245.59.109
+  port: 2083
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 85.208.139.98
+  port: 8444
+  uuid: c931f737-cafe-4e4f-998a-a65517941256
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: xxcTLPc4_Us8sMNk3WyMhNaLPWwkaq1TsVWLTxTBemw
-    short-id: 0f2e1d3c4b5a6978
-  servername: lol.dyn.riotcdn.net
+    public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik
+    short-id: 77e934f68f02ab4c
+  servername: cdnjs.com
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys
   type: vless
-  server: 89.106.95.203
+  server: 2.26.3.148
   port: 443
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+    short-id: 67ccfc02
+  servername: www.deepl.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 64.226.109.18
+  port: 4399
+  uuid: 00000000-0000-4000-8000-000000000000
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  ws-opts:
+    path: /@Marisa_kristifp=chrome
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.145.158
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 144.31.96.174
+  port: 443
+  uuid: 6946cf76-2c1e-4fbc-a28a-e2beeb7c29cb
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  servername: ya.ru
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys
   type: vless
@@ -2480,33 +1569,184 @@ proxies:
       Host: aa.beijng.dpdns.org
 - name: oneclickvpnkeys
   type: vless
-  server: 89.106.95.206
+  server: 87.120.126.2
   port: 443
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '23'
-  servername: www.apple.com
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  servername: www.google.com
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys
   type: vless
-  server: 45.205.0.191
+  server: 35.156.76.43
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /?https://t.me/youtube@ZYFXS🇨🇳=
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 217.144.190.230
   port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.latonyamadeline.ndjp.net
+  ws-opts:
+    path: /?https://t.me/WangCai2🇨🇳=
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.135.9.138
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: sni.my111000.tech
-  client-fingerprint: chrome
+  servername: sni.111000.indevs.in
   ws-opts:
     path: /
     headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.238.71.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: babayaga-6i7.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.19.56.154
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen8.cc.cd
+  ws-opts:
+    path: /resource/linksfp=chrome
+    headers:
+      Host: pagescm.freen8.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 5.10.244.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
       Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 167.68.42.191
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.158.133.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?telegram🇨🇳+@wangcai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.135.9.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?telegram🇨🇳+@wangcai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.149.54
+  port: 443
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 2026.hhhhh.eu.org
+  ws-opts:
+    path: /
+    headers:
+      Host: 2026.hhhhh.eu.org
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.19.45.127
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen31.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: /site
+    headers:
+      Host: pagescm.freen31.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 66.81.247.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    headers:
+      Host: babayaga-6i7.pages.dev
 - name: oneclickvpnkeys
   type: vless
   server: 199.181.197.138
@@ -2523,90 +1763,35 @@ proxies:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 104.16.63.239
-  port: 80
-  uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: netherlands.vipserver14.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.21.34.189
-  port: 443
-  uuid: 03896a37-db8f-44ed-8ce1-45a1577f6da6
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: stipulations.gelatin.workers.dev
-  ws-opts:
-    path: /eyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: stipulations.gelatin.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.147.227
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.17.185.207
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.dynv6.net
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /?proxyip=ip.111000.de5.net:443
-    headers:
-      Host: sni.111000.dynv6.net
-- name: oneclickvpnkeys
-  type: vless
-  server: 194.59.5.238
+  server: 25.129.197.191
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.jpmj.dev
-  ws-opts:
-    path: /?telegram🇨🇳+@wangcai2=
-    headers:
-      Host: sni.jpmj.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.21.31.4
-  port: 8880
-  uuid: 0a5ab719-2407-4398-b507-8437ef365023
-  udp: true
-  tls: false
   skip-cert-verify: false
   network: ws
+  servername: sni.my111000.tech
   ws-opts:
-    path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
     headers:
-      Host: underthegun.cfd.
+      Host: sni.my111000.tech
 - name: oneclickvpnkeys
   type: vless
-  server: 155.46.167.138
-  port: 2096
+  server: 45.144.154.195
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.army
+  ws-opts:
+    path: /?https://t.me/youtube@ZYFXS🇨🇳=
+    headers:
+      Host: sni.111000.v6.army
+- name: oneclickvpnkeys
+  type: vless
+  server: 45.130.125.112
+  port: 2053
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
@@ -2614,33 +1799,49 @@ proxies:
   network: ws
   servername: sni.111000.indevs.in
   ws-opts:
-    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 172.64.146.211
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  server: 104.26.2.252
+  port: 2087
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
+  servername: pagescm.freen11.cc.cd
   ws-opts:
-    path: /
+    path: /acg/torrent/infofp=chrome
     headers:
-      Host: tt.andishehparenting.com
+      Host: pagescm.freen11.cc.cd
 - name: oneclickvpnkeys
   type: vless
-  server: 154.81.141.138
+  server: 104.17.154.35
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen36.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: /static/question/readme
+    headers:
+      Host: pagescm.freen36.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.129.166.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   servername: sni.111000.indevs.in
   ws-opts:
+    path: /
     headers:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
@@ -2659,90 +1860,48 @@ proxies:
       Host: cocobaby.pages.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 45.205.0.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.my111000.tech
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: oneclickvpnkeys
-  type: vless
-  server: 5.10.244.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.my111000.tech
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-- name: oneclickvpnkeys
-  type: vless
-  server: 162.159.152.150
+  server: 8.6.112.9
   port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: pagescm.freen1.de5.net
-  client-fingerprint: chrome
+  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
   ws-opts:
-    path: /qa/section/videos
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
     headers:
-      Host: pagescm.freen1.de5.net
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 104.18.44.159
-  port: 2096
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cocobaby.pages.dev
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cocobaby.pages.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.26.9.125
-  port: 8443
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cocobaby.pages.dev
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: cocobaby.pages.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 193.42.110.120
+  server: b2.ioxnetwork.shop
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: sni.111000.dns.army
+  servername: sni.111000.dynv6.net
   ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
+    path: /?Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.111000.dns.army
+      Host: sni.111000.dynv6.net
 - name: oneclickvpnkeys
   type: vless
-  server: 104.16.250.22
+  server: 27.50.48.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.176.24.138
   port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -2750,30 +1909,116 @@ proxies:
   skip-cert-verify: false
   network: ws
   servername: sni.111000.indevs.in
-  client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
       Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 160.153.1.50
+  server: 162.159.153.95
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: sni.111000.indevs.in
+  servername: pagescm.freen30.cc.cd
   ws-opts:
-    path: /?Telegram🇨🇳+@WangCai2=
+    path: /redirect.htmlfp
     headers:
-      Host: sni.111000.indevs.in
+      Host: pagescm.freen30.cc.cd
 - name: oneclickvpnkeys
   type: vless
-  server: 104.21.7.133
+  server: 185.120.16.208
+  port: 8443
+  uuid: f546691e-c631-45a5-a399-fbf0d1a4fa02
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: BDyM9fEqTWGuUfygYOQVEomwVdNv2A3cj-M1t00fBHw
+    short-id: d1e8a2f6c3b90754
+  servername: fastcdn.hoyoverse.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: node-de.dostup-est.info
+  port: 8444
+  uuid: c931f737-cafe-4e4f-998a-a65517941256
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik
+    short-id: 77e934f68f02ab4c
+  servername: cdnjs.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 162.159.152.2
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.dynv6.net
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: oneclickvpnkeys
+  type: vless
+  server: n3th3ryt.gxcore.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: grpc
+  reality-opts:
+    public-key: KzSy2i45DrsFOfXXQ7ConynwqKOaH70pvpoMR4joMWU
+    short-id: d45feecd265c116d
+  servername: n3th3ryt.gxcore.net
+  grpc-opts:
+    grpc-service-name: grpc
+- name: oneclickvpnkeys
+  type: vless
+  server: 8.35.211.241
+  port: 443
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: pagescm.freen11.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: /friend
+    headers:
+      Host: pagescm.freen11.cc.cd
+- name: oneclickvpnkeys
+  type: vless
+  server: 144.124.253.4
+  port: 8443
+  uuid: 1cb91b20-49cc-59ff-8393-91808a4deede
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: bVhVy1hZY_iw-sljlaeVbTBBa6SPvMm0Kg0tCC8CKHM
+    short-id: ffffffffff
+  servername: www.ozon.ru
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.21.224.5
   port: 80
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
+  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
   udp: true
   tls: false
   skip-cert-verify: false
@@ -2781,36 +2026,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 188.114.98.0
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.16.152.187
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: pagescm.freen7.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /member/discuss/ask
-    headers:
-      Host: pagescm.freen7.cc.cd
+      Host: aa.beijng.dpdns.org
 - name: oneclickvpnkeys
   type: vless
   server: 138.124.186.52
@@ -2827,145 +2043,63 @@ proxies:
   flow: xtls-rprx-vision
 - name: oneclickvpnkeys
   type: vless
-  server: 217.65.79.122
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.dns.army
-  ws-opts:
-    path: /?https://t.me/WangCai2🇨🇳=
-    headers:
-      Host: sni.111000.dns.army
-- name: oneclickvpnkeys
-  type: vless
-  server: www.csgo.com
-  port: 8443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: pagescm.freen26.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    path: /torrent/section
-    headers:
-      Host: pagescm.freen26.cc.cd
-- name: oneclickvpnkeys
-  type: vless
-  server: 103.116.7.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 45.12.30.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /?Telegram🇨🇳@WangCai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 185.193.31.138
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /?telegram🇨🇳+@wangcai2=
-    headers:
-      Host: sni.111000.indevs.in
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.21.224.5
-  port: 8880
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳@WangCai2/
-    headers:
-      Host: frejd.11258.workers.dev
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.146.153
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 172.64.147.15
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tt.andishehparenting.com
-- name: oneclickvpnkeys
-  type: vless
-  server: 104.19.35.169
+  server: 172.64.149.209
   port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 3-7v4.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 3-7v4.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 45.80.111.138
+  port: 2096
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: sni.latonyamadeline.ndjp.net
+  servername: sni.111000.indevs.in
   ws-opts:
-    path: /?https://t.me/wangcai2🇨🇳=
     headers:
-      Host: sni.latonyamadeline.ndjp.net
+      Host: sni.111000.indevs.in
 - name: oneclickvpnkeys
   type: vless
-  server: 172.64.147.79
-  port: 80
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  server: 104.194.159.207
+  port: 443
+  uuid: 3c81c716-4fd5-11f1-8a2c-525400a7149e
   udp: true
-  tls: false
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg
+    short-id: ''
+  servername: www.kleinanzeigen.de
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.67.65.101
+  port: 2096
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
   skip-cert-verify: false
   network: ws
+  servername: cocobaby.pages.dev
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
-      Host: tt.andishehparenting.com
+      Host: cocobaby.pages.dev
 - name: oneclickvpnkeys
   type: vless
-  server: 54.37.51.238
+  server: 38.180.133.83
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
@@ -2979,87 +2113,288 @@ proxies:
       Host: sni.111000.v6.navy
 - name: oneclickvpnkeys
   type: vless
-  server: 195.181.173.199
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  server: 45.153.7.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
-  skip-cert-verify: true
-  network: tcp
-  servername: ams1.fromblancwithlove.com
-  alpn:
-  - h2
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
 - name: oneclickvpnkeys
   type: vless
-  server: 172.64.156.60
+  server: 193.56.3.178
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /?https://t.me/WangCai2🇨🇳=
+    headers:
+      Host: sni.111000.v6.rocks
+- name: oneclickvpnkeys
+  type: vless
+  server: 37.59.97.139
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.navy
+  ws-opts:
+    path: /?Telegram🇨🇳+@WangCai2=
+    headers:
+      Host: sni.111000.v6.navy
+- name: oneclickvpnkeys
+  type: vless
+  server: 172.64.147.210
+  port: 80
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tt.andishehparenting.com
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.158.133.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
+  servername: sni.111000.indevs.in
   ws-opts:
+    path: /?telegram🇨🇳+@wangcai2=
     headers:
-      Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
-- name: pro_exi
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
   type: vless
-  server: 185.143.235.20
-  port: 8880
-  uuid: fb1b6c8a-92ce-4824-9eb1-f718da16de35
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr-st.ge9.ir
-- name: pro_exi
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: cfc97c9c-6edc-4ce7-8f19-f86bc298a503
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gr.dbrun-gorsap.ir
-- name: pro_exi
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 6a2405d9-61e2-4c74-a638-b2e2899e1995
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pa1.ghostantaniehh.ir
-- name: pro_exi
-  type: vless
-  server: snapp.ir
-  port: 2087
-  uuid: 14c584ac-f244-439a-b1dc-e5c0ff21bd9a
+  server: 185.156.19.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
-  network: xhttp
-  servername: v1.golsima.store
+  network: ws
+  servername: sni.111000.indevs.in
   client-fingerprint: chrome
-  alpn:
-  - h3
-  - h2
-- name: saministamm
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 162.159.153.235
+  port: 2053
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cocobaby.pages.dev
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cocobaby.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 193.151.108.76
+  port: 443
+  uuid: c8d1c6d3-388f-48fc-a8f0-ed90d955d096
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw
+    short-id: 6ba85179e30d4fc2
+  servername: www.google.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 176.124.223.238
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.jpmj.dev
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 92.53.190.231
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /?Telegram🇨🇳@WangCai2=
+    headers:
+      Host: babayaga-6i7.pages.dev
+- name: oneclickvpnkeys
+  type: vless
+  server: 104.20.6.134
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 89.106.83.54
+  port: 443
+  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '23'
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 79.141.171.133
+  port: 443
+  uuid: 4c3fe585-ac09-41df-b284-888818888188
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
+    short-id: aabbccdd
+  servername: apple.com
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 92.243.74.4
+  port: 8443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  client-fingerprint: firefox
+  ws-opts:
+    path: /pdf/rank/products/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: oneclickvpnkeys
+  type: vless
+  server: 185.120.16.208
+  port: 443
+  uuid: b25d866f-1391-41d3-9509-4efd2215258d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: rH0vZkY3Wyc8Ol-pLWEPx22hpg6ovrLFK9Sp0aQLcT0
+    short-id: 7a3f5c8e2b4d1a69
+  servername: valorant.secure.dyn.riotcdn.net
+  flow: xtls-rprx-vision
+- name: oneclickvpnkeys
+  type: vless
+  server: 5.178.109.158
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.dns.army
+  ws-opts:
+    path: /?https://t.me/WangCai2🇨🇳=
+    headers:
+      Host: sni.111000.dns.army
+- name: oneclickvpnkeys
+  type: vless
+  server: 5.10.245.191
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.my111000.tech
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: oneclickvpnkeys
+  type: vless
+  server: 45.130.125.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /
+    headers:
+      Host: sni.111000.indevs.in
+- name: oneclickvpnkeys
+  type: vless
+  server: 20.16.105.244
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: persianvpnhub
   type: vless
   server: snapp.ir
   port: 80
-  uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946
+  uuid: c6ceccbe-351b-444f-b7eb-2462fcdab45f
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2080
+    headers:
+      Host: ir3.cdnk1.cfd
+- name: persianvpnhub
+  type: vless
+  server: snapp.ir
+  port: 8080
+  uuid: 00da4e11-82e5-46ea-91e1-d43504b6303b
   udp: true
   tls: false
   skip-cert-verify: false
@@ -3067,12 +2402,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: hubfile.zpax.ir
-- name: saministamm
+      Host: ups1.shahan2019.ir
+- name: persianvpnhub
   type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946
+  server: 185.143.233.200
+  port: 2086
+  uuid: 9055325d-078d-4540-8d53-ae8a41a60f6c
   udp: true
   tls: false
   skip-cert-verify: false
@@ -3080,36 +2415,74 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: hubfile.zpax.ir
+      Host: nima.hayalco.ir
+- name: persianvpnhub
+  type: vless
+  server: Snapp.ir
+  port: 2087
+  uuid: 2ce59d4f-9656-41ed-9265-99daae35a4ae
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: info.drevnelo.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: /vmMarketlabs
+    headers:
+      Host: info.drevnelo.ir
+- name: saministamm
+  type: vless
+  server: adler-1g.adelshoop.net
+  port: 80
+  uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 - name: v2ray_extractor
   type: vless
-  server: 128.127.180.105
+  server: 146.190.233.213
+  port: 8443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  client-fingerprint: firefox
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: v2ray_extractor
+  type: vless
+  server: de.vpnbase.net
+  port: 80
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /http
+    headers:
+      Host: de.vpnbase.net
+- name: v2ray_extractor
+  type: vless
+  server: 193.233.232.9
   port: 443
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: 1-jk1.pages.dev
+  servername: 3-2h8.pages.dev
   client-fingerprint: chrome
   ws-opts:
     headers:
-      Host: 1-jk1.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 8.39.125.169
-  port: 8443
-  uuid: b818576e-951a-4a9c-879a-d32611b977ad
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: cocobaby.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: cocobaby.pages.dev
+      Host: 3-2h8.pages.dev
 - name: v2ray_extractor
   type: vless
   server: 104.26.1.221
@@ -3127,6 +2500,108 @@ proxies:
       Host: dabaius2.sylu.net
 - name: v2ray_extractor
   type: vless
+  server: 50.228.203.26
+  port: 443
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: babayaga-6i7.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 162.159.36.5
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: newwk1.f1w.de5.net
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: v2ray_extractor
+  type: vless
+  server: 188.72.103.3
+  port: 443
+  uuid: 45e55198-a5ad-4f19-bb39-236822141d25
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: cdn.tracker.yandex.net
+  client-fingerprint: chrome
+  ws-opts:
+    path: /stream/updates/b66b78d7/019dfd7f-0777-6283-7287-911777c3720f4
+    headers:
+      Host: cdn.lovecrafty.link
+- name: v2ray_extractor
+  type: vless
+  server: store.ubi.com
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 3-2h8.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: 3-2h8.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: openai.com
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 2-1ng.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 2-1ng.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: ip.sb
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 3-7ny.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 3-7ny.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: tajikistan.mfa.gov.ua
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 3-7v4.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 3-7v4.pages.dev
+- name: v2ray_extractor
+  type: vless
   server: mfa.gov.ua
   port: 443
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
@@ -3142,17 +2617,135 @@ proxies:
       Host: 3-7gj.pages.dev
 - name: v2ray_extractor
   type: vless
-  server: love.zshabai.top
+  server: 172.66.1.143
   port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
   tls: true
   skip-cert-verify: true
   network: ws
-  servername: 2-eox.pages.dev
+  servername: rAyAn-007.fOtOn.dPdNs.oRg
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.foton.dpdns.org
+- name: v2ray_extractor
+  type: vless
+  server: 104.18.3.11
+  port: 2082
+  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
   ws-opts:
     headers:
-      Host: 2-eox.pages.dev
+      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 104.18.12.229
+  port: 2052
+  uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 138.124.186.202
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  servername: www.fh-aachen.de
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 104.17.15.87
+  port: 80
+  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@WireXnet
+    headers:
+      Host: germany.xydcqd.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 20.16.105.244
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /hot/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: v2ray_extractor
+  type: vless
+  server: 45.120.179.89
+  port: 8443
+  uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
+    short-id: ''
+  servername: tradingview.com
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 104.18.2.11
+  port: 2082
+  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 104.20.5.134
+  port: 2086
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /PdgTMW8NBNZYo6L23v
+    headers:
+      Host: index.0x15.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 45.131.4.192
+  port: 80
+  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: silent-paper-fa57.fipiyag989.workers.dev
 - name: v2ray_extractor
   type: vless
   server: 104.18.40.152
@@ -3166,6 +2759,77 @@ proxies:
   ws-opts:
     headers:
       Host: 3-2h8.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: dnew.cc
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 1-brc.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 1-brc.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 91.107.150.171
+  port: 2000
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /lib/collection/jp/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: v2ray_extractor
+  type: vless
+  server: creativecommons.org
+  port: 2086
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /PdgTMW8NBNZYo6L23v
+    headers:
+      Host: index.0x15.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 46.149.66.90
+  port: 443
+  uuid: e31a303c-a8f0-4189-9bdf-2312d15253d2
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: 9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc
+    short-id: ''
+  servername: www.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 188.226.180.209
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /shows/register/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
 - name: v2ray_extractor
   type: vless
   server: 162.159.153.4
@@ -3182,6 +2846,217 @@ proxies:
       Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: v2ray_extractor
   type: vless
+  server: 172.64.149.54
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.jpmj.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.jpmj.dev
+- name: v2ray_extractor
+  type: vless
+  server: 198.41.222.191
+  port: 80
+  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: leecher56.matinheydri.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 172.64.152.100
+  port: 443
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: hio-awx.pages.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: hio-awx.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 128.127.180.105
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 1-jk1.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: 1-jk1.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 167.71.65.205
+  port: 8443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  ws-opts:
+    path: /travel/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+- name: v2ray_extractor
+  type: vless
+  server: pl74.mechvpn.online
+  port: 443
+  uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: pl74.mechvpn.online
+  flow: xtls-rprx-vision-udp443
+- name: v2ray_extractor
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: y6-3cj.PAgES.DEV
+  ws-opts:
+    path: /
+    headers:
+      Host: y6-3cj.PAgES.DEV
+- name: v2ray_extractor
+  type: vless
+  server: 178.62.67.149
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 3-7gj.pages.dev
+  ws-opts:
+    headers:
+      Host: 3-7gj.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 172.232.208.147
+  port: 443
+  uuid: d7f67e94-aa9e-4454-b1cf-ce522a0d2728
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: v2ray_extractor
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: hio-awx.pages.dev
+  ws-opts:
+    headers:
+      Host: hio-awx.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: london1.ap221.com
+  port: 443
+  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: london.ap221.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+- name: v2ray_extractor
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: powered-by-surena.user68f797c2f3e1b.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: v2ray.simspeedup.com
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aIs.SpEeDtEsT.nEt
+- name: v2ray_extractor
+  type: vless
+  server: czu.ksnodes.net
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: czu.ksnodes.net
+  alpn:
+  - http/1.1
+  - h2
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 109.206.241.125
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 1-gjo.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 1-gjo.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 103.15.90.134
+  port: 49678
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: babayaga-6i7.pages.dev
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: babayaga-6i7.pages.dev
+- name: v2ray_extractor
+  type: vless
   server: 77.110.96.142
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -3195,6 +3070,157 @@ proxies:
     path: /
     headers:
       Host: sni.latonyamadeline.ndjp.net
+- name: v2ray_extractor
+  type: vless
+  server: 104.20.6.134
+  port: 2086
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /PdgTMW8NBNZYo6L23v
+    headers:
+      Host: index.0x15.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 198.41.223.121
+  port: 443
+  uuid: d555dac9-27cb-4ddb-89f5-6a1d8d1e4798
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: momi.timoreyhaneh.workers.dev
+  ws-opts:
+    headers:
+      Host: momi.timoreyhaneh.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 190.93.245.94
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts: {}
+- name: v2ray_extractor
+  type: vless
+  server: 159.223.24.65
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: v2ray_extractor
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  uuid: bd26c0c3-5eb9-425e-a4b6-2660df94e613
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: nEO1-3zC.pAGes.DeV
+  ws-opts:
+    headers:
+      Host: nEO1-3zC.pAGes.DeV
+- name: v2ray_extractor
+  type: vless
+  server: 144.31.4.166
+  port: 443
+  uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+    short-id: 0123456789abcdef
+  servername: www.deepl.com
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 188.114.97.3
+  port: 443
+  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: labeller.neonime83.workers.dev
+  ws-opts:
+    path: /
+    headers:
+      Host: labeller.neonime83.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 162.159.36.20
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: newwk1.f1w.de5.net
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: v2ray_extractor
+  type: vless
+  server: 85.121.48.77
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 3-7gj.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /socks5=gogo:gogo@185.184.70.120:50088
+    headers:
+      Host: 3-7gj.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 94.130.132.180
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @app_bedal
+    headers:
+      Host: sni.111000.indevs.in
+- name: v2ray_extractor
+  type: vless
+  server: 146.185.142.231
+  port: 443
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: juzi8186.qea.ccwu.cc
+  client-fingerprint: firefox
+  ws-opts:
+    path: /forums/faq/juzibaipiao
+    headers:
+      Host: juzi8186.qea.ccwu.cc
 - name: v2ray_extractor
   type: vless
   server: 104.24.0.25
@@ -3213,793 +3239,16 @@ proxies:
       Host: ems.arc-time.workers.dev
 - name: v2ray_extractor
   type: vless
-  server: 162.159.36.20
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: newwk1.f1w.de5.net
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: v2ray_extractor
-  type: vless
-  server: 159.89.194.243
-  port: 22539
-  uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
+  server: 72.56.62.253
+  port: 22231
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   udp: true
   tls: true
   skip-cert-verify: false
   network: tcp
-  servername: node1.nanonet.host
-  client-fingerprint: chrome
-- name: v2ray_extractor
-  type: vless
-  server: 104.20.5.134
-  port: 2052
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assets
-    headers:
-      Host: index.0x14.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: de.vpnbase.net
-  port: 80
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /http
-    headers:
-      Host: de.vpnbase.net
-- name: v2ray_extractor
-  type: vless
-  server: openai.com
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 2-1ng.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 2-1ng.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: dnew.cc
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 1-brc.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 1-brc.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 172.66.1.143
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: rAyAn-007.fOtOn.dPdNs.oRg
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: v2ray_extractor
-  type: vless
-  server: 104.18.12.229
-  port: 2052
-  uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: v2ray.simspeedup.com
-  port: 80
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: aIs.SpEeDtEsT.nEt
-- name: v2ray_extractor
-  type: vless
-  server: 20.16.105.244
-  port: 443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /hot/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 104.20.5.134
-  port: 2086
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /PdgTMW8NBNZYo6L23v
-    headers:
-      Host: index.0x15.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: da.mfa.gov.ua
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 1-aym.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 1-aym.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 193.233.232.9
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 3-2h8.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: 3-2h8.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 104.17.15.87
-  port: 80
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@WireXnet
-    headers:
-      Host: germany.xydcqd.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 162.159.152.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: v2ray_extractor
-  type: vless
-  server: 85.121.48.77
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 3-7gj.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /socks5=gogo:gogo@185.184.70.120:50088
-    headers:
-      Host: 3-7gj.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 109.120.132.142
-  port: 40617
-  uuid: d8d05386-e381-40a4-bb63-715c208b3ed3
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: v2ray_extractor
-  type: vless
-  server: 178.62.67.149
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 3-7gj.pages.dev
-  ws-opts:
-    headers:
-      Host: 3-7gj.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 172.64.145.202
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: newwk1.f1w.de5.net
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: v2ray_extractor
-  type: vless
-  server: 172.232.208.147
-  port: 443
-  uuid: d7f67e94-aa9e-4454-b1cf-ce522a0d2728
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: v2ray_extractor
-  type: vless
-  server: 104.20.6.134
-  port: 2086
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /PdgTMW8NBNZYo6L23v
-    headers:
-      Host: index.0x15.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 104.24.68.193
-  port: 443
-  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-  ws-opts:
-    path: ws
-    headers:
-      Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 172.66.40.99
-  port: 2083
-  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: yousef.varzesh.dpdns.org
-  ws-opts:
-    headers:
-      Host: yousef.varzesh.dpdns.org
-- name: v2ray_extractor
-  type: vless
-  server: 104.20.6.134
-  port: 2052
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: index.0x14.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 104.18.3.11
-  port: 2082
-  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 188.72.103.3
-  port: 443
-  uuid: 45e55198-a5ad-4f19-bb39-236822141d25
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: cdn.tracker.yandex.net
-  client-fingerprint: chrome
-  ws-opts:
-    path: /stream/updates/b66b78d7/019dfd7f-0777-6283-7287-911777c3720f4
-    headers:
-      Host: cdn.lovecrafty.link
-- name: v2ray_extractor
-  type: vless
-  server: czu.ksnodes.net
-  port: 443
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: czu.ksnodes.net
-  alpn:
-  - http/1.1
-  - h2
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 46.149.66.90
-  port: 443
-  uuid: e31a303c-a8f0-4189-9bdf-2312d15253d2
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: 9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc
-    short-id: ''
-  servername: www.google.com
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: chatgpt.com
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: powered-by-surena.user68f797c2f3e1b.workers.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.user68f797c2f3e1b.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 104.18.2.11
-  port: 2082
-  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 172.64.152.100
-  port: 443
-  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: hio-awx.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: hio-awx.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 144.31.4.166
-  port: 443
-  uuid: f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: 0123456789abcdef
-  servername: www.deepl.com
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 162.159.141.147
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: rAyAn-007.fOtOn.dPdNs.oRg
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: v2ray_extractor
-  type: vless
-  server: 138.124.59.215
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.v6.rocks
-  ws-opts:
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-    headers:
-      Host: sni.111000.v6.rocks
-- name: v2ray_extractor
-  type: vless
-  server: tajikistan.mfa.gov.ua
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 3-7v4.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-7v4.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 190.93.245.94
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts: {}
-- name: v2ray_extractor
-  type: vless
-  server: london1.ap221.com
-  port: 443
-  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: london.ap221.com
+  servername: r1.mizulina.top
   client-fingerprint: chrome
   flow: xtls-rprx-vision-udp443
-- name: v2ray_extractor
-  type: vless
-  server: ip.sb
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 3-7ny.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-7ny.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 109.206.241.125
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: 1-gjo.pages.dev
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: 1-gjo.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 91.244.70.205
-  port: 443
-  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: v2ray_extractor
-  type: vless
-  server: 172.64.147.104
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 3-2h8.pages.dev
-  ws-opts:
-    headers:
-      Host: 3-2h8.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 172.64.149.54
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.jpmj.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.jpmj.dev
-- name: v2ray_extractor
-  type: vless
-  server: 146.190.233.213
-  port: 8443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: firefox
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: y6-3cj.PAgES.DEV
-  ws-opts:
-    path: /
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- name: v2ray_extractor
-  type: vless
-  server: 94.130.132.180
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @app_bedal
-    headers:
-      Host: sni.111000.indevs.in
-- name: v2ray_extractor
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: bd26c0c3-5eb9-425e-a4b6-2660df94e613
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: nEO1-3zC.pAGes.DeV
-  ws-opts:
-    headers:
-      Host: nEO1-3zC.pAGes.DeV
-- name: v2ray_extractor
-  type: vless
-  server: 45.131.4.192
-  port: 80
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 188.114.97.3
-  port: 443
-  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: labeller.neonime83.workers.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: labeller.neonime83.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 160.22.16.187
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: gogo10.kmj.qzz.io
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: gogo10.kmj.qzz.io
-- name: v2ray_extractor
-  type: vless
-  server: 162.159.36.5
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: newwk1.f1w.de5.net
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: v2ray_extractor
-  type: vless
-  server: 8.223.63.150
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.indevs.in
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: v2ray_extractor
-  type: vless
-  server: 103.15.90.134
-  port: 49678
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: babayaga-6i7.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 138.124.186.202
-  port: 443
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  servername: www.fh-aachen.de
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: pl74.mechvpn.online
-  port: 443
-  uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: pl74.mechvpn.online
-  flow: xtls-rprx-vision-udp443
-- name: v2ray_extractor
-  type: vless
-  server: store.ubi.com
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 3-2h8.pages.dev
-  ws-opts:
-    path: /
-    headers:
-      Host: 3-2h8.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: creativecommons.org
-  port: 2086
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /PdgTMW8NBNZYo6L23v
-    headers:
-      Host: index.0x15.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 138.124.186.100
-  port: 443
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  servername: www.fh-aachen.de
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 138.124.186.52
-  port: 443
-  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    short-id: ''
-  servername: www.fh-aachen.de
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 8.216.21.135
-  port: 10026
-  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
 - name: v2ray_extractor
   type: vless
   server: 138.124.186.80
@@ -4014,208 +3263,6 @@ proxies:
     short-id: ''
   servername: www.fh-aachen.de
   flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 167.71.65.205
-  port: 8443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /travel/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 91.107.150.171
-  port: 2000
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /lib/collection/jp/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 146.185.142.231
-  port: 443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  client-fingerprint: firefox
-  ws-opts:
-    path: /forums/faq/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 50.228.203.26
-  port: 443
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: babayaga-6i7.pages.dev
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: babayaga-6i7.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 198.41.222.191
-  port: 80
-  uuid: e388fffb-03b0-4227-ac2c-2b5cec1f5c34
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: leecher56.matinheydri.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: nlyttls.keepsecurevpn.com
-  port: 443
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: nlyttls.keepsecurevpn.com
-  alpn:
-  - http/1.1
-  - h2
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 198.41.223.121
-  port: 443
-  uuid: d555dac9-27cb-4ddb-89f5-6a1d8d1e4798
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: momi.timoreyhaneh.workers.dev
-  ws-opts:
-    headers:
-      Host: momi.timoreyhaneh.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 159.223.24.65
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.indevs.in
-- name: v2ray_extractor
-  type: vless
-  server: 64.227.174.213
-  port: 2053
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: sni.111000.indevs.in
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: v2ray_extractor
-  type: vless
-  server: 45.15.167.17
-  port: 443
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: 2-eox.pages.dev
-  ws-opts:
-    headers:
-      Host: 2-eox.pages.dev
-- name: v2ray_extractor
-  type: vless
-  server: 188.226.180.209
-  port: 443
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  servername: juzi8186.qea.ccwu.cc
-  ws-opts:
-    path: /shows/register/juzibaipiao
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-- name: v2ray_extractor
-  type: vless
-  server: 104.26.3.125
-  port: 2052
-  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: icy-wildflower-2590.lihuifeng595.workers.dev
-- name: v2ray_extractor
-  type: vless
-  server: 72.56.62.253
-  port: 22231
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  servername: r1.mizulina.top
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-- name: v2ray_extractor
-  type: vless
-  server: 45.120.179.89
-  port: 8443
-  uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  network: tcp
-  reality-opts:
-    public-key: TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI
-    short-id: ''
-  servername: tradingview.com
-  flow: xtls-rprx-vision
-- name: v2ray_extractor
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  servername: hio-awx.pages.dev
-  ws-opts:
-    headers:
-      Host: hio-awx.pages.dev
 - name: v2ray_extractor
   type: vless
   server: 172.66.47.163
@@ -4242,66 +3289,373 @@ proxies:
     path: /assets
     headers:
       Host: index.0x14.workers.dev
-- name: vpnbaz
+- name: v2ray_extractor
   type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 1aa64ceb-94d3-48f0-b86d-99ac1ac2f7c0
+  server: 162.159.141.147
+  port: 443
+  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
   udp: true
-  tls: false
-  skip-cert-verify: false
+  tls: true
+  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /graphql?ed=2560
-    headers:
-      Host: ss1.limitless-cloud.ir
-- name: vpnbaz
-  type: vless
-  server: adler-1g.adelshoop.net
-  port: 80
-  uuid: 59bc19e5-9384-45ea-99c6-0fc412975eee
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
+  servername: rAyAn-007.fOtOn.dPdNs.oRg
   ws-opts:
     path: /
-- name: vpnbaz
+    headers:
+      Host: rayan-007.foton.dpdns.org
+- name: v2ray_extractor
   type: vless
-  server: snapppay.ir
-  port: 8443
-  uuid: b4515f21-e551-40af-9f6f-6af378b01759
+  server: 64.227.174.213
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
   tls: true
   skip-cert-verify: false
   network: ws
-  servername: salamiran.shomalnojm.ir
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
+  servername: sni.111000.indevs.in
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: v2ray_extractor
+  type: vless
+  server: 138.124.186.100
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  servername: www.fh-aachen.de
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
   ws-opts:
     path: /
     headers:
-      Host: salamiran.shomalnojm.ir
-- name: vpnbaz
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: v2ray_extractor
   type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 73f19acd-d1e2-4848-ba32-2dccbcbd6557
+  server: 45.15.167.17
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 2-eox.pages.dev
+  ws-opts:
+    headers:
+      Host: 2-eox.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 8.216.21.135
+  port: 10026
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: v2ray_extractor
+  type: vless
+  server: 104.20.6.134
+  port: 2052
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /graphql?ed=2560
     headers:
-      Host: ss9.limitless-cloud.ir
+      Host: index.0x14.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 172.66.40.99
+  port: 2083
+  uuid: ce035748-9913-40c9-9fb6-c8389f7cdcf3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: yousef.varzesh.dpdns.org
+  ws-opts:
+    headers:
+      Host: yousef.varzesh.dpdns.org
+- name: v2ray_extractor
+  type: vless
+  server: love.zshabai.top
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 2-eox.pages.dev
+  ws-opts:
+    headers:
+      Host: 2-eox.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 8.39.125.169
+  port: 8443
+  uuid: b818576e-951a-4a9c-879a-d32611b977ad
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: cocobaby.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: cocobaby.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: nlyttls.keepsecurevpn.com
+  port: 443
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: nlyttls.keepsecurevpn.com
+  alpn:
+  - http/1.1
+  - h2
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 109.120.132.142
+  port: 40617
+  uuid: d8d05386-e381-40a4-bb63-715c208b3ed3
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: v2ray_extractor
+  type: vless
+  server: 159.89.194.243
+  port: 22539
+  uuid: d6d7e024-0a49-483d-bcd7-048c4d30eca6
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  servername: node1.nanonet.host
+  client-fingerprint: chrome
+- name: v2ray_extractor
+  type: vless
+  server: da.mfa.gov.ua
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: 1-aym.pages.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: 1-aym.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 138.124.59.215
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: sni.111000.v6.rocks
+  ws-opts:
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+    headers:
+      Host: sni.111000.v6.rocks
+- name: v2ray_extractor
+  type: vless
+  server: 91.244.70.205
+  port: 443
+  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: v2ray_extractor
+  type: vless
+  server: 160.22.16.187
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  servername: gogo10.kmj.qzz.io
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: gogo10.kmj.qzz.io
+- name: v2ray_extractor
+  type: vless
+  server: 172.64.147.104
+  port: 443
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: 3-2h8.pages.dev
+  ws-opts:
+    headers:
+      Host: 3-2h8.pages.dev
+- name: v2ray_extractor
+  type: vless
+  server: 104.24.68.193
+  port: 443
+  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
+  ws-opts:
+    path: ws
+    headers:
+      Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 8.223.63.150
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: sni.111000.indevs.in
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: sni.111000.indevs.in
+- name: v2ray_extractor
+  type: vless
+  server: 172.64.145.202
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  servername: newwk1.f1w.de5.net
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: v2ray_extractor
+  type: vless
+  server: 138.124.186.52
+  port: 443
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  network: tcp
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ''
+  servername: www.fh-aachen.de
+  flow: xtls-rprx-vision
+- name: v2ray_extractor
+  type: vless
+  server: 104.20.5.134
+  port: 2052
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assets
+    headers:
+      Host: index.0x14.workers.dev
+- name: v2ray_extractor
+  type: vless
+  server: 104.26.3.125
+  port: 2052
+  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: icy-wildflower-2590.lihuifeng595.workers.dev
 - name: vpnbaz
   type: vless
   server: snapp.ir
   port: 80
   uuid: 22e60128-48d5-47e0-9d6c-8eea01c9dc32
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: iranfuture.musicritmic.ir
+- name: vpnbaz
+  type: vless
+  server: 185.143.232.122
+  port: 80
+  uuid: bb7b12d2-8d39-4eb0-b0c9-94a0853ee945
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /news
+    headers:
+      Host: out3.sublink.store
+- name: vpnbaz
+  type: vless
+  server: snapp.ir
+  port: 80
+  uuid: 75bb0d63-2b70-49d9-8b6a-952add3e21c5
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: iranfuture.musicritmic.ir
+- name: vpnbaz
+  type: vless
+  server: aparatrat1.info
+  port: 2083
+  uuid: 7ed47b2b-3654-436e-8b34-7bdf03854164
+  udp: true
+  tls: false
+  skip-cert-verify: false
+  network: tcp
+- name: vpnbaz
+  type: vless
+  server: snapp.ir
+  port: 80
+  uuid: 0f72c0c3-7bcd-4e26-b75e-3e5f4b3416ea
   udp: true
   tls: false
   skip-cert-verify: false
@@ -4338,30 +3692,13 @@ proxies:
       Host: Super.mobilesubasa.com
 - name: vpnbaz
   type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 0f72c0c3-7bcd-4e26-b75e-3e5f4b3416ea
+  server: ngame.thegameuhb.ir
+  port: 8800
+  uuid: ad48afc6-4003-4735-b6ad-d13e97cbb298
   udp: true
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: iranfuture.musicritmic.ir
-- name: vpnbaz
-  type: vless
-  server: arvancloud.ir
-  port: 80
-  uuid: b3469f5d-a662-44a4-b973-e2c74ea424b9
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: samrexnet.ir
+  network: tcp
 - name: vpnbaz
   type: vless
   server: www.varzesh3.com
@@ -4377,73 +3714,35 @@ proxies:
       Host: server1.mizbanertebatfarda.ir
 - name: vpnbaz
   type: vless
-  server: 185.143.233.167
-  port: 80
-  uuid: 36623934-3936-4030-b332-633533653363
+  server: snapppay.ir
+  port: 8443
+  uuid: b4515f21-e551-40af-9f6f-6af378b01759
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
+  servername: salamiran.shomalnojm.ir
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
   ws-opts:
-    path: /l/w/aXD2QyDdS6vRQpxs?ed=2047
+    path: /
     headers:
-      Host: dl.tgmovie.bond
+      Host: salamiran.shomalnojm.ir
 - name: vpnbaz
   type: vless
-  server: aparatrat1.info
-  port: 2083
-  uuid: 7ed47b2b-3654-436e-8b34-7bdf03854164
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: vpnbaz
-  type: vless
-  server: ngame.thegameuhb.ir
-  port: 8800
-  uuid: ad48afc6-4003-4735-b6ad-d13e97cbb298
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: tcp
-- name: vpnbaz
-  type: vless
-  server: meli2.masterdadeh.ir
+  server: arvancloud.ir
   port: 80
-  uuid: e668e2db-8d79-86ef-92f7-edbdf49c81a2
+  uuid: b3469f5d-a662-44a4-b973-e2c74ea424b9
   udp: true
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
-- name: vpnbaz
-  type: vless
-  server: net.vbgroup.site
-  port: 993
-  uuid: ce0539de-480a-4aa2-9fe1-49d1dd257753
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: xhttp
-  servername: server.evanxxmedia.top
-  client-fingerprint: chrome
-  alpn:
-  - h2
-  - http/1.1
-- name: vpnbaz
-  type: vless
-  server: 185.143.232.122
-  port: 80
-  uuid: bb7b12d2-8d39-4eb0-b0c9-94a0853ee945
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /news
     headers:
-      Host: out3.sublink.store
+      Host: samrexnet.ir
 - name: vpnbaz
   type: vless
   server: snapp.ir
@@ -4457,19 +3756,6 @@ proxies:
     path: /
     headers:
       Host: M2.snllshop.ir
-- name: vpnbaz
-  type: vless
-  server: snapp.ir
-  port: 80
-  uuid: 75bb0d63-2b70-49d9-8b6a-952add3e21c5
-  udp: true
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: iranfuture.musicritmic.ir
 proxy-groups:
 - name: 🚀 انتخاب
   type: select
@@ -4479,14 +3765,6 @@ proxy-groups:
   - BrilliantGift
   - BrilliantGift
   - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
   - Do1rcci
   - FreakConfig
   - FreakConfig
@@ -4496,20 +3774,20 @@ proxy-groups:
   - FreakConfig
   - FreakConfig
   - FreakConfig
+  - FreakConfig
+  - FreakConfig
+  - FreakConfig
+  - NetShot1
+  - NetShot1
+  - NetShot1
+  - byiroh
+  - dingyue_center
 - name: ♻️ خودکار
   type: url-test
   proxies:
   - BrilliantGift
   - BrilliantGift
   - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
   - Do1rcci
   - FreakConfig
   - FreakConfig
@@ -4522,36 +3800,9 @@ proxy-groups:
   - FreakConfig
   - FreakConfig
   - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
   - NetShot1
   - NetShot1
   - NetShot1
-  - NetShot1
-  - NetShot1
-  - NetShot1
-  - NetShot1
-  - byiroh
   - byiroh
   - dingyue_center
   - dingyue_center
@@ -4708,22 +3959,10 @@ proxy-groups:
   - oneclickvpnkeys
   - oneclickvpnkeys
   - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - pro_exi
-  - pro_exi
-  - pro_exi
-  - pro_exi
-  - saministamm
+  - persianvpnhub
+  - persianvpnhub
+  - persianvpnhub
+  - persianvpnhub
   - saministamm
   - v2ray_extractor
   - v2ray_extractor
@@ -4811,12 +4050,6 @@ proxy-groups:
   - v2ray_extractor
   - v2ray_extractor
   - v2ray_extractor
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
   - vpnbaz
   - vpnbaz
   - vpnbaz
@@ -4837,14 +4070,6 @@ proxy-groups:
   - BrilliantGift
   - BrilliantGift
   - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - ConfigX2ray
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
-  - Do1rcci
   - Do1rcci
   - FreakConfig
   - FreakConfig
@@ -4857,36 +4082,9 @@ proxy-groups:
   - FreakConfig
   - FreakConfig
   - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
-  - FreakConfig
   - NetShot1
   - NetShot1
   - NetShot1
-  - NetShot1
-  - NetShot1
-  - NetShot1
-  - NetShot1
-  - byiroh
   - byiroh
   - dingyue_center
   - dingyue_center
@@ -5043,22 +4241,10 @@ proxy-groups:
   - oneclickvpnkeys
   - oneclickvpnkeys
   - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - oneclickvpnkeys
-  - pro_exi
-  - pro_exi
-  - pro_exi
-  - pro_exi
-  - saministamm
+  - persianvpnhub
+  - persianvpnhub
+  - persianvpnhub
+  - persianvpnhub
   - saministamm
   - v2ray_extractor
   - v2ray_extractor
@@ -5146,12 +4332,6 @@ proxy-groups:
   - v2ray_extractor
   - v2ray_extractor
   - v2ray_extractor
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
-  - vpnbaz
   - vpnbaz
   - vpnbaz
   - vpnbaz
